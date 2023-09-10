@@ -1,13 +1,15 @@
 {
   "name": "background-remover",
   "version": "0.1.0",
+  "homepage": "https://Daniel-Parton.github.io/background-remover",
   "private": true,
   "devDependencies": {
     "@types/jest": "^27.5.2",
     "@types/lodash": "^4.14.198",
     "@types/node": "^16.18.50",
     "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7"
+    "@types/react-dom": "^18.2.7",
+    "gh-pages": "^6.0.0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -30,6 +32,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

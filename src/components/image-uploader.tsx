@@ -69,6 +69,7 @@ const CountDownDisplay = ({ caption, percent }: CountDownDisplayProps) => {
   const theme = useMantineTheme();
   useEffect(() => {
     start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

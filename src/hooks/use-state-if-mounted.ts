@@ -20,6 +20,7 @@ export function useStateIfMounted<T = unknown>(initialState: T | (() => T)) {
     if (hasMountedRef.current) {
       setState(value);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return [state, handleSetState] as [T, Dispatch<SetStateAction<T>>];
