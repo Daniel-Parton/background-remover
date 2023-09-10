@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/background-remover/static/js/main.07f6d586.js",
+    "static/js/787.1ba6fcbf.chunk.js": "/background-remover/static/js/787.1ba6fcbf.chunk.js",
+    "index.html": "/background-remover/index.html",
+    "main.07f6d586.js.map": "/background-remover/static/js/main.07f6d586.js.map",
+    "787.1ba6fcbf.chunk.js.map": "/background-remover/static/js/787.1ba6fcbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.07f6d586.js"
+  ]
+}
